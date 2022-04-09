@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEAM ERP</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, #4c00b0, #00c4fd);
+        }
+
+        #part1 {
+            float: left;
+            width: 32%;
+            color: white;
+            margin: auto;
+            padding-top: 180px;
+        }
+
+        .text {
+            text-align: center;
+        }
+
+        .p {
+            font-size: 20px;
+        }
+
+        .h {
+            font-size: 35px;
+        }
+
+        #part1 img {
+            padding: 17px 188px;
+        }
+
+        #part2 {
+            float: right;
+            width: 67%;
+            border: 4px rgb(246, 249, 248) solid;
+            background-color: rgb(246, 249, 248);
+            width: 58%;
+            height: 600px;
+            border-top-left-radius: 95px;
+            border-bottom-left-radius: 95px;
+            margin-top: 105px;
+
+        }
+
+        .in {
+            margin: 30px 30px;
+
+        }
+
+        #oneside {
+            float: left;
+            width: 48%
+        }
+
+        #otherside {
+            float: left;
+            width: 48%;
+        }
+
+        #emp {
+            padding: 10px 235px;
+            font-size: 35px;
+            padding-top: 50px;
+        }
+
+        #login {
+            border: white 4px solid;
+            width: 180px;
+            height: 30px;
+            background-color: white;
+            color: black;
+            border-radius: 25px;
+            text-align: center;
+            margin-left: 135px;
+            margin-top: 100px;
+        }
+
+        #login p {
+            margin: 8px;
+        }
+        #login:hover{
+            background-color: #b07cf0;
+        }
+
+        #gender {
+            margin: -10px 25px;
+        }
+
+        #fn,
+        #ln,
+        #pw,
+        #cpw,
+        #ye,
+        #yp,
+        #eya,
+        #qu {
+            width: 280px;
+            height: 25px;
+        }
+
+        .navbar {
+            background-color: #153eb8;
+            border-radius: 48px;
+            float: right;
+            width: 25%;
+            margin: 10px 30px;
+        }
+
+        .navbar li {
+            float: left;
+            /* padding: 00px 10px; */
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+            list-style: none;
+
+        }
+
+        .navbar li a {
+
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        .navbar input {
+            color: rgb(240, 175, 210);
+            border-radius: 2px;
+
+        }
+
+        .hir {
+            background-color: white;
+            float: right;
+            width: 50px;
+            height: 20px;
+            border-radius: 48px;
+            padding: 4px;
+            margin-right: 20px;
+
+        }
+
+        .hir li a {
+            color: black;
+            text-align: center;
+            padding-left: 8px;
+        }
+
+        .empl {
+
+            float: left;
+            width: 50px;
+            height: 20px;
+            border-radius: 48px;
+            padding: 4px;
+            margin-right: 20px;
+        }
+
+        .empl li a:hover {
+            color: black;
+        }
+
+        .hir:hover {
+            /* background-color: rgb(255, 145, 0); */
+        }
+
+        
+        .register:hover {
+            background-color: rgb(32, 44, 64);
+        }
+        .register input {
+            background-color: #153eb8;
+            border: #153eb8 2px solid;
+            /* width: 130px; */
+            /* height: 50px; */
+            margin-right:150px;
+            float: right;
+            width: 125px;
+            height: 35px;
+            border-radius: 48px;
+            color: white;
+
+        }
+
+        .register input:hover {
+            background-color: rgb(32, 44, 64);
+            border: rgb(32, 44, 64) 2px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="part1">
+        <img src="Screenshot 2022-04-08 at 7.19.53 PM.png" alt="" width="80px" height="80px">
+
+        <span class="text">
+
+            <h1 class="h"> Welcome </h1>
+            <p class="p">
+                You are 30 seconds <br> away from earning your<br> own money!
+            </p>
+
+            <div id="login">
+                <p>Login</p>
+            </div>
+
+    </div>
+    </span>
+
+    <div id="part2">
+
+        <nav class="navbar">
+            <ul>
+                <div class=" empl">
+                    <li> <a href="projectemp.html"> Employee</a></li>
+                </div>
+                <div class="hir">
+                    <li> <a href="projecthir.html">Hirer</a> </li>
+                </div>
+            </ul>
+        </nav>
+
+        <p id="emp">
+            Apply as a Hirer
+        </p>
+        <form>
+        <div id="oneside">
+            <div class=" in" id="  a   "> <input type="text" name="" id="fn" placeholder=" First Name * "required> </div>
+            <div class=" in" id="  b   "> <input type="text" name="" id="ln" placeholder=" Last Name * "required> </div>
+            <div class=" in" id="  e   "> <input type="email" name="" id="ye" placeholder=" Your Email *"required></div>
+            <div class=" in" id="  f   "> <input type="number" name="" id="yp" placeholder=" Your Phone *"required></div>
+            <div id="gender"> <input type="radio" name="gender" id="r1" required> Male
+                <input type="radio" name="gender" id="r2" required> Female
+            </div>
+        </div>
+        <div id="otherside">
+            <div class=" in" id="  c   "> <input type="password" name="pw" id="pw" placeholder=" Password *"required> </div>
+            <div class=" in" id="  d   "> <input type="password" name="cpw" id="cpw" placeholder=" Confirm Password *"required>
+            </div>
+            
+            <div class=" in" id="  g   "> 
+                <select name="qu" id="qu" required>
+                    <option  value="" > Please select your security question </option>
+                    <option value="ABC" required> YOUR NAME  </option>
+                    <option value="DEF" required> PET NAME </option>
+                    <option value="GHI" required> COLLEGE NAME </option>
+                    
+                </select></div>
+            <div class=" in" id="  h   "> <input type="text" name="" id="eya" placeholder=" Enter Your Answer *"
+                    required></div>
+        </div>
+
+        <div class="register">
+            <p><input type="submit" value="Register"></p>
+        </div>
+    </div>
+</form>
+
+
+
+</body>
+
+</html>
+
+        
+
+
+
+
+
+
+
+
+
